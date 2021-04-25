@@ -17,7 +17,7 @@ There is an example env file than can be renamed to .env after your changes are 
 
 ### Setup
 
-    cookiecutter atlas
+    cookiecutter https://github.com/wearecodenation/atlas
     cd <project_name>
     <edit .env file>
     make env
