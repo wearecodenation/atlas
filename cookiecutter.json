@@ -1,0 +1,12 @@
+{
+    "author_name": "",
+    "author_email": "",
+    "project_name": "",
+    "project_repo_name": "{{cookiecutter.project_name|lower|replace(' ', '_')|replace('-', '_')}}",
+    "project_short_description": "",
+    "project_python_version": "^3.9",
+    "project_sys_deps": "",
+    "project_gitignore_sets": "python macos",
+    "project_version": "0.1.0",
+    "_extensions": ["jinja2_time.TimeExtension"]
+}
