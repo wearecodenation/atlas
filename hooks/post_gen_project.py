@@ -34,7 +34,7 @@ with open(os.devnull, 'w') as fp:
 
 # Git ignore
 gitignore_url = 'https://www.gitignore.io/api/{{cookiecutter.project_gitignore_sets|replace(" ", ",")}}'
-req = request.Request(gitignore_url, headers={'User-Agent': 'miskatoniclabs/flint'})
+req = request.Request(gitignore_url, headers={'User-Agent': 'wearecodenation/atlas'})
 res = request.urlopen(req)
 
 with Path('.gitignore').open('w+') as ignore:
